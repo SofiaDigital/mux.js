@@ -2,6 +2,9 @@
 [![Build Status](https://travis-ci.org/videojs/mux.js.svg?branch=main)](https://travis-ci.org/videojs/mux.js)[![Greenkeeper badge](https://badges.greenkeeper.io/videojs/mux.js.svg)](https://greenkeeper.io/)
 [![Slack Status](http://slack.videojs.com/badge.svg)](http://slack.videojs.com)
 
+Fork: Use customized mux.ts in VideoJS player.
+
+- Edit `parsePmt` function to select preferred audio track.
 
 Lightweight utilities for inspecting and manipulating video container formats.
 
