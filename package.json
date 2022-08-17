@@ -1,7 +1,10 @@
 {
   "name": "mux.js",
-  "version": "6.0.1",
+  "version": "6.0.1sofia",
   "description": "A collection of lightweight utilities for inspecting and manipulating video container formats.",
+  "publishConfig": {
+    "registry": "https://nexus.sofiadigital.fi/repository/sofiaNPM/"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/videojs/mux.js.git"
@@ -42,7 +45,7 @@
     "watch:cjs": "npm run build:cjs -- -w",
     "watch:es": "npm run build:es -- -w",
     "watch:js": "npm run build:js -- -w",
-    "prepublishOnly": "npm ci && npm-run-all build-prod && vjsverify --verbose"
+    "prepublishOnly": "npm ci && npm-run-all build-prod"
   },
   "engines": {
     "node": ">=8",
