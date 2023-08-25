@@ -1,6 +1,6 @@
 {
   "name": "mux.js",
-  "version": "6.3.0sofia",
+  "version": "7.0.0sofia",
   "description": "A collection of lightweight utilities for inspecting and manipulating video container formats.",
   "publishConfig": {
     "registry": "https://nexus.sofiadigital.fi/repository/sofiaNPM/"
